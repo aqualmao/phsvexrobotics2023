@@ -1,0 +1,10 @@
+from vex import *
+
+# Begin project code
+def when_started():
+    wait(1, SECONDS)
+    brain.play_sound(SoundType.TADA)
+    brain.screen.print("ready")
+    # this portion is just to make sure it runs on the robot
+
+when_started()
